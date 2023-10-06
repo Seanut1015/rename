@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>280</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Path</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>選擇資料夾</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>90</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>jpg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>pdf</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>txt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>zip</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>rar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7z</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>請輸入檔案名稱</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>210</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>更改</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>20</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>jpg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>pdf</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>txt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>zip</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>rar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7z</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>choose_path()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>160</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>rename()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>334</x>
+     <y>233</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>294</x>
+     <y>227</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_2</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>format2_change()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>318</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>294</x>
+     <y>116</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>format1_change()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>310</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>290</x>
+     <y>36</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <signal>click_2()</signal>
+  <slot>choose_path()</slot>
+  <slot>rename()</slot>
+  <slot>format2_change()</slot>
+  <slot>format1_change()</slot>
+ </slots>
+</ui>
